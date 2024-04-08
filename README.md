@@ -35,3 +35,5 @@ SkyScan Weather Tracker allows users to track weather information based on their
 3. Run Dev Server
    ```bash
    npm run dev
+
+4. Put your API key in Weather.jsx component line 23
