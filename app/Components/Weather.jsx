@@ -20,7 +20,7 @@ const Weather = () => {
           .then(latlong => {
             const [lat, lon] = latlong.split(',');
             // Fetch weather data using latitude and longitude
-            fetch(`https://api.weatherapi.com/v1/forecast.json?key=3589566eb11c41a08db193458240704&q=${lat},${lon}&days=14`)
+            fetch(`https://api.weatherapi.com/v1/forecast.json?key=Your_API_KEY_From_Weather_API&q=${lat},${lon}&days=14`)
               .then(response => response.json())
               .then(weatherResponse => {
                 setWeatherData(weatherResponse);
